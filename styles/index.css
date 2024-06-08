@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(#162938, #868f72);
+    height: 109vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 75px;
+}
+
+.icon .logo {
+    color: #ff7200;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #ff7200;
+}
+
+.search {
+    display: flex;
+}
+
+.srch {
+    width: 160px;
+    background: none;
+    border: 1px solid #ff7200;
+    margin-top: 8px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial;
+    font-size: 17px;
+    color: #fff;
+    padding: 20px;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h2 {
+    font-family: Arial;
+    font-size: 60px;
+}
+
+.content h3 {
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.content .cn {
+    width: 70px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.cn:hover {
+    background-color: #fff;
+}
+
+.content span {
+    background-color: #ff7200;
+    font-size: 60px;
+}
+
+p {
+    color: #fff;
+}
