@@ -1,1 +1,2 @@
-# AuthGuardian
+AuthGuardian
+Unlock Security, Gain Access!
